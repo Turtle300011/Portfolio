@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Christoffer Morgan.  After 19 years as an electrician I opted to switch careers.  I have developed web pages using HTML5, CSS, Javascrtipt, ReactJS, Angular, Vue.js and Bootstrap for five years as a hobby.  Now I want to pursue full stack development as a fulltime career. I also have experience with the WAMP, MAMP and LAMP stack which I use to develop Wordpress sites.  I do know some PHP and I am always willing to build new skills.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -42,7 +42,7 @@
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Turtle300011",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -81,37 +81,23 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "Freelance Web Developer",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "10.2015 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "ReactJS 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
+          "ReactJS",
+          "HTML5",
+          "CSS",
+          "Node.JS",
           "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "MySQL",
+          "Wordpress",
+          "MAMP"
         ]
       }
     ]

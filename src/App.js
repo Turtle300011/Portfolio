@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+//import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
@@ -36,10 +36,10 @@ class App extends Component {
         : window.$primaryLanguageIconId;
     document
       .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
+      .removeAttribute("opacity", "brightness(0%)");
     document
       .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .setAttribute("opacity", "brightness(0%)");
   }
 
   componentDidMount() {
@@ -94,8 +94,8 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              className="iconify language-icon mr-12"
+              data-icon="twemoji-flag-for-flag-united-states"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -111,7 +111,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-united-states"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
@@ -120,10 +120,6 @@ class App extends Component {
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
           sharedSkills={this.state.sharedData.skills}
