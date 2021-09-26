@@ -1,0 +1,16 @@
+[debug] [2021-09-26T13:14:15.293Z] ----------------------------------------------------------------------
+[debug] [2021-09-26T13:14:15.295Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-09-26T13:14:15.295Z] CLI Version:   9.1.0
+[debug] [2021-09-26T13:14:15.295Z] Platform:      darwin
+[debug] [2021-09-26T13:14:15.295Z] Node Version:  v14.14.0
+[debug] [2021-09-26T13:14:15.296Z] Time:          Sun Sep 26 2021 07:14:15 GMT-0600 (Mountain Daylight Time)
+[debug] [2021-09-26T13:14:15.296Z] ----------------------------------------------------------------------
+[debug] [2021-09-26T13:14:15.296Z] 
+[debug] [2021-09-26T13:14:15.300Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-26T13:14:15.300Z] > authorizing via signed-in user
+[debug] [2021-09-26T13:14:15.301Z] [iam] checking project christoffermorganportfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-26T13:14:15.303Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/christoffermorganportfolio:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-09-26T13:14:15.649Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 26 Sep 2021 13:14:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=92","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-26T13:14:15.651Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/christoffermorganportfolio  
+ 
